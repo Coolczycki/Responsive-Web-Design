@@ -41,9 +41,9 @@
  👤 Author<br>
    
 <ul>
-  <li>GitHub: <a href=""></a></li>
-  <li>Twitter: <a href=""></a></li>
-  <li>LinkedIn: <a href=""></a></li>
+  <li>GitHub: <a href="https://github.com/danmainah">Dan Mainah</a></li>
+  <li>Twitter: <a href="https://twitter.com/dan_mainah">Dan Mainah</a></li>
+  <li>LinkedIn: <a href="www.linkedin.com/in/daniel-maina-315a38191">Daniel Maina</a></li>
 </ul   
 
 <h3><b>Contributing</b></h3>
