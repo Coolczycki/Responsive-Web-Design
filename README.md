@@ -1,4 +1,4 @@
-<h2><b>Week 1 HTML & CSS project</b></h2>
+<h2><b>Week 2; Responsive web design project</b></h2>
 <hr>
 <p>The assignment is to clone a The Next Web page.</p>
 <hr>
