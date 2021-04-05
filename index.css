@@ -1,3 +1,4 @@
+/* Styles reset & global classes */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,4 +6,177 @@
   text-decoration: none;
   color: black;
   list-style: none;
+}
+
+:root {
+  --lightGray: #131313;
+  --darkBlack: #000;
+  --white: #fff;
+  --yellow: #fd3;
+  --gray: #898888;
+  --orange: #f42;
+  --txtGray: hsla(0,0%,100%,.6);
+}
+
+.list-inline li {
+  display: inline;
+}
+
+.flex-box {
+  display: flex;
+}
+
+#white-txt {
+  color: #fff;
+}
+
+.rajdhani {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.work-sans {
+  font-family: 'Work sans', sans-serif;
+}
+
+/* Styles for mobile preview (default) */
+
+/* Header styles for mobile */
+
+header {
+  width: 98%;
+  margin:0 auto;
+  position: fixed;
+  height: 108px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-top {
+  display: none;
+}
+
+.header-middle-left {
+  display: none;
+}
+
+/* Middle section of navbar here */
+
+.nav-img {
+  display: inline;
+  float: left;
+  height: 50px;
+  width: auto;
+}
+
+.header-middle-right {
+  display: inline;
+  float: right;
+}
+
+.fa-search {
+  font-size: 18px;
+  color: black;
+  padding: 16px;
+  padding-bottom: 14px;
+  border: 1px solid #eee;
+  opacity: 0.25;
+}
+
+.fa-bars {
+  font-size: 18px;
+  color: var(--orange);
+  padding: 16px;
+  padding-bottom: 14px;
+  border: 1px solid #eee;
+}
+
+/* Yellow stripe section here */
+.header-bottom {
+  width: 100%;
+  height: 50px;
+  font-size: 0.65rem;
+  background-color: var(--yellow);
+}
+
+.header-bottom p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+header {
+  width: 100%;
+  position: fixed;
+  height: 108px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-top {
+  display: initial;
+}
+
+.header-middle-left {
+  display: initial;
+}
+
+/* black background section */
+.header-top {
+  width: 100%;
+  height: 50px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 0.75rem;
+  background-color: #000;
+}
+
+.nav-img {
+  display: none;
+}
+
+.top-left-list a {
+  color: var(--txtGray);
+}
+
+.top-left-list a:hover {
+  color: var(--white);
+}
+
+.top-left-list li {
+  margin-left: 20px;
+}
+
+.top-right-list a {
+  color: var(--txtGray);
+}
+
+.top-right-list a:hover {
+  color: var(--white);
+}
+
+.top-right-list li {
+  margin-right: 20px;
+}
+
+.top-left-list {
+  display: inline;
+  float: left;
+}
+
+.top-right-list {
+  display: inline;
+  float: right;
+}
+
+
+
+
+
+}
+
+@media screen and (min-width: 1024px) {
+
 }
