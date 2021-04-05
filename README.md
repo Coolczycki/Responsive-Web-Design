@@ -11,7 +11,8 @@
   <li>HTML & CSS</li> 
   <li>Technologies include CSS flexbox, floats and grid</li>
   <li>CSS media querries for mobile, tablet and desktop preview</li>
-   <li>Universal HTML structure for media querries</li>
+  <li>Universal HTML structure for media querries</li>
+  <li>CSS preprocessors</li>
 </ul>
 <br>
 <h3><b>Live Demo</b></h3>
