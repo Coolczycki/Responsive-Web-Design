@@ -103,6 +103,28 @@ header {
   margin-top: 20px;
 }
 
+/* footer section */
+
+footer{
+  position: absolute;
+  bottom:0%;
+}
+
+.social-media{
+  margin-left:50%;
+  margin-bottom: 100px;
+}
+
+.social-media .fa {
+  font-size: 25px;
+  margin-left: 15px;
+}
+
+.pages{
+  margin-left:50%;
+}
+
+
 
 
 @media screen and (min-width: 768px) {

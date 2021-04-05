@@ -1,4 +1,4 @@
-<h2><b>Week 1 HTML & CSS project</b></h2>
+<h2><b>Week 2; Responsive web design project</b></h2>
 <hr>
 <p>The assignment is to clone a The Next Web page.</p>
 <hr>
@@ -11,7 +11,8 @@
   <li>HTML & CSS</li> 
   <li>Technologies include CSS flexbox, floats and grid</li>
   <li>CSS media querries for mobile, tablet and desktop preview</li>
-   <li>Universal HTML structure for media querries</li>
+  <li>Universal HTML structure for media querries</li>
+  <li>CSS preprocessors</li>
 </ul>
 <br>
 <h3><b>Live Demo</b></h3>
