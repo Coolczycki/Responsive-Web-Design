@@ -46,6 +46,7 @@ header {
   width: 98%;
   margin:0 auto;
   position: fixed;
+  top: 0;
   height: 108px;
   display: flex;
   flex-direction: column;
@@ -124,6 +125,36 @@ footer{
   margin-left:50%;
 }
 
+/* Highlights section */
+main{
+  width: 100%;
+}
+
+.highlights {
+  width: 98%;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.highlights-main{
+  width: 100%;
+  height: 190px;
+  background-image: url(img/header-img-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* Highlight container styling */
+
+.hl-main-bottom {
+  position: relative;
+  bottom: -60px;
+  padding: 14px 12px;
+  margin-bottom: 0px;
+}
+
 
 
 
@@ -193,12 +224,82 @@ header {
   float: right;
 }
 
+/* White background section */
+#firstanchor {
+  padding-left: 20px;
+  padding-right: 12px;
+}
 
+.header-middle {
+  width: 100%;
+  height: 50px;
+  font-size: 0.8rem;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.header-middle-left{
+  display: inline;
+  box-sizing: border-box;
+}
+
+
+.header-middle-left a {
+  padding-top: 12px;
+  padding-right: 12px;
+  padding-left: 12px;
+  color: #aaa;
+}
+
+.header-middle-left a:hover {
+  color: black;
+}
+
+.header-middle-right{
+  display: inline;
+  float: right;
+}
+
+.fa-search {
+  font-size: 18px;
+  color: black;
+  opacity: 0.25;
+  padding: 0px;
+  padding-right: 20px;
+}
+
+.fa-search:hover {
+  color: var(--gray);
+}
+
+.burger {
+  display: none;
+}
+
+/* Yellow background navbar section */
+
+.header-bottom {
+  width: 100%;
+  height: 50px;
+  font-size: 0.8rem;
+  background-color: var(--yellow);
+}
+
+.header-bottom p { 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  text-align: initial;
+}
 
 
 
 }
 
 @media screen and (min-width: 1024px) {
+
+
+
+
 
 }
