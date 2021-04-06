@@ -633,8 +633,8 @@ main {
 
   .header-middle {
     background-color: white;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0.1px;
+    margin-bottom: 0.1px;
     padding-top: 12px;
     padding-bottom: 10px;
   }
@@ -697,12 +697,12 @@ main {
   }
 
   .funding-title {
-	height: 50px;
+  height: 50px;
   }
 
   .funding-title-list {
-    display: inline;
-	float: right;
+  	display: inline;
+    float: right;
   }
 
   .funding-title h2 {
