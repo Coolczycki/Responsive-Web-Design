@@ -108,27 +108,29 @@ header {
 }
 
 /* footer section */
-footer{
+.footer{
+  display:flex;
+  flex-direction: column;
   text-align: center;
   bottom:0;
   width: 100%;
 }
  .links {
+   display:flex;
+   flex-direction: column;
    width:100%;
    background-color: var(--lightGray);
-   height:120px;
+   height: 10%;
    padding:20px;
-   margin: 5px;
+   align-content: center;
  }
 
  .social-media .fa {
-  display:inline-block;
-  font-size: 25px;
+  font-size: 15px;
   border-radius:20px;
-  padding: 5px;
+  padding: 10px;
   margin-left: 2%;
   margin-bottom:1%;
-  margin-top:3%;
   color:aliceblue;
   background-color:  rgb(65, 61, 61);
   border-radius: 15px;
@@ -145,20 +147,22 @@ opacity: .5;
  color:rgb(119, 108, 108);
  padding: 0.3em;
  font-size: 12px;
- margin-bottom:3%;
 }
 
 .pages a:hover{
   color:#fff;
 }
 .footer-message {
+  display:flex;
+ flex-direction: column;
+ justify-content:center;
+ display: inline-block;
  padding-top: 20px;
  height: 75px;
  background-color: black;
  color:aliceblue;
- padding-left:5% ;
- padding-right:5% ;
 }
+
 .footer-message img {
  height:12px;
  width: 40px; 
