@@ -17,7 +17,7 @@
 <br>
 <h3><b>Live Demo</b></h3>
 <hr>
-<a href="#">Live Demo Link</a><br>
+<a href="https://loosescrew022.github.io/Responsive-Web-Design/">Live Demo Link</a><br>
 <h3><b>Getting Started</b></h3>
 <hr>
 <p>To get a local copy up and running follow these simple example steps</p>
@@ -49,7 +49,7 @@
 <h3><b>Contributing</b></h3>
 <hr>
 Contributions, issues, and feature requests are welcome!<br>
-Feel free to check the<a href=""> issues</a> page.
+Feel free to check the<a href="https://github.com/Loosescrew022/Responsive-Web-Design/issues"> issues</a> page.
 <hr>
 <h3><b>Show your support</b></h3>
 Give a ⭐️ if you like this project!<hr>
