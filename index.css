@@ -307,8 +307,10 @@ main{
   color: white;
 }
 
-
-
+#hl-title-txt-side {
+  font-size: 22px;
+  color: white;
+}
 
 @media screen and (min-width: 768px) {
 
@@ -481,13 +483,38 @@ header {
 	height: 49.5%;
 }
 
+#hl-title-txt {
+  font-size: 38px;
+  line-height: 40px;
+}
+
 }
 
 @media screen and (min-width: 1024px) {
 /* highlights styles for desktop */
 .highlights-main {
+  width: 69.5%;
+  height: 550px;
+  margin-right: 0.5%;
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),url(img/header-img-1.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
+
+/* GRADIENT HERE
+
+.highlights-main :after {
+	content: '';
+	width: 939px;
+	height: 550px;
+	background-image: url(img/gradient.webp);
+	opacity: 0.5;
+}
+
+*/
 
 .hl-main-top{
   display: flex;
@@ -507,6 +534,16 @@ header {
 
 .hl-main-top-date {
   margin: 20px 20px;
+}
+
+#hl-title-txt {
+  font-size: 58px;
+  line-height: 58px;
+}
+
+.hl-main-top-date {
+  font-size: 18px;
+  color: white;
 }
 
 
