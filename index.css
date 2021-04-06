@@ -135,17 +135,17 @@ header {
   width: 100%;
 }
 
- .links {
-   display: flex;
-   flex-direction: column;
-   width: 100%;
-   background-color: var(--lightGray);
-   height: 10%;
-   padding: 20px;
-   align-content: center;
+.links {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--lightGray);
+  height: 10%;
+  padding: 20px;
+  align-content: center;
 }
 
- .social-media .fa {
+.social-media .fa {
   font-size: 15px;
   border-radius: 20px;
   padding: 10px;
@@ -159,13 +159,13 @@ header {
 }
 
 .social-media li:hover {
-opacity: 0.5;
+  opacity: 0.5;
 }
 
 .pages a {
- color: rgb(119, 108, 108);
- padding: 0.3em;
- font-size: 12px;
+  color: rgb(119, 108, 108);
+  padding: 0.3em;
+  font-size: 12px;
 }
 
 .pages a:hover {
@@ -173,19 +173,19 @@ opacity: 0.5;
 }
 
 .footer-message {
- display: flex;
- flex-direction: column;
- justify-content: center;
- display: inline-block;
- padding-top: 20px;
- height: 75px;
- background-color: black;
- color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  display: inline-block;
+  padding-top: 20px;
+  height: 75px;
+  background-color: black;
+  color: aliceblue;
 }
 
 .footer-message img {
- height: 12px;
- width: 40px; 
+  height: 12px;
+  width: 40px; 
 }
 
 .ft-text {
