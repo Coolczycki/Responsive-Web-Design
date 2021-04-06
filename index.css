@@ -15,8 +15,8 @@
   --yellow: #fd3;
   --gray: #898888;
   --orange: #f42;
-  --pink: rgba(255,68,34,.08);
-  --txtGray: hsla(0,0%,100%,.6);
+  --pink: rgba(255, 68, 34, 0.08);
+  --txtGray: hsla(0, 0%, 100%, 0.6);
 }
 
 .list-inline li {
@@ -62,7 +62,7 @@
 
 header {
   width: 98%;
-  margin:0 auto;
+  margin: 0 auto;
   position: fixed;
   top: 0;
   height: 108px;
@@ -79,7 +79,7 @@ header {
 }
 
 /* Middle section of navbar here */
-.header-middle{
+.header-middle {
   width: 100%;
   background-color: white;
 }
@@ -126,31 +126,31 @@ header {
 }
 
 /* footer section */
-.footer{
-  display:flex;
+.footer {
+  display: flex;
   flex-direction: column;
   text-align: center;
-  bottom:0;
+  bottom: 0;
   width: 100%;
 }
  .links {
-   display:flex;
+   display: flex;
    flex-direction: column;
-   width:100%;
+   width: 100%;
    background-color: var(--lightGray);
    height: 10%;
-   padding:20px;
+   padding: 20px;
    align-content: center;
  }
 
  .social-media .fa {
   font-size: 15px;
-  border-radius:20px;
+  border-radius: 20px;
   padding: 10px;
   margin-left: 2%;
-  margin-bottom:1%;
-  color:aliceblue;
-  background-color:  rgb(65, 61, 61);
+  margin-bottom: 1%;
+  color: aliceblue;
+  background-color: rgb(65, 61, 61);
   border-radius: 15px;
   box-shadow: 0px 0px 2px rgb(99, 91, 91);
   padding: 0.5em 0.6em rgb(99, 91, 91);
@@ -158,22 +158,23 @@ header {
 }
 
 .social-media li:hover{
-opacity: .5;
+opacity: 0.5;
 }
 
 .pages a {
- color:rgb(119, 108, 108);
+ color: rgb(119, 108, 108);
  padding: 0.3em;
  font-size: 12px;
 }
 
 .pages a:hover{
-  color:#fff;
+  color: #fff;
 }
+
 .footer-message {
  display: flex;
  flex-direction: column;
- justify-content:center;
+ justify-content: center;
  display: inline-block;
  padding-top: 20px;
  height: 75px;
@@ -186,13 +187,13 @@ opacity: .5;
  width: 40px; 
 }
 
-.ft-text{
+.ft-text {
   font-size: 14px;
   color: rgb(119, 108, 108);
 }
 
 /* Highlights section */
-main{
+main {
   width: 100%;
 }
 
@@ -204,10 +205,10 @@ main{
 }
 
 /* Main highlights container */
-.highlights-main{
+.highlights-main {
   width: 100%;
   height: 190px;
-  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),url(img/header-img-1.jpg);
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(img/header-img-1.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -220,7 +221,7 @@ main{
 }
 
 .hl-main-bottom {
- padding: 14px 12px;
+  padding: 14px 12px;
 }
 
 .hl-main-bottom h2 {
@@ -228,19 +229,19 @@ main{
 }
 
 .hl-main-bottom li {
-    color: var(--txtGray);
-    font-size: 15px;
-    padding-right: 8px;
+  color: var(--txtGray);
+  font-size: 15px;
+  padding-right: 8px;
 }
 
 .hl-main-bottom a {
-    color: var(--txtGray);
-    font-size: 15px;
+  color: var(--txtGray);
+  font-size: 15px;
 }
 
 .hl-main-bottom i {
-    color: var(--txtGray);
-    font-size: 15px;
+  color: var(--txtGray);
+  font-size: 15px;
 }
 
 .hl-main-bottom ul {
@@ -251,7 +252,7 @@ main{
 .hl-side-1{
   width: 100%;
   height: 190px;
-  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),url(img/header-img-2.jpg);
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(img/header-img-2.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -267,19 +268,19 @@ main{
 }
 
 .hl-side-1 li {
-    color: var(--txtGray);
-    font-size: 15px;
-    padding-right: 8px;
+  color: var(--txtGray);
+  font-size: 15px;
+  padding-right: 8px;
 }
 
 .hl-side-1 a {
-    color: var(--txtGray);
-    font-size: 15px;
+  color: var(--txtGray);
+  font-size: 15px;
 }
 
 .hl-side-1 i {
-    color: var(--txtGray);
-    font-size: 15px;
+  color: var(--txtGray);
+  font-size: 15px;
 }
 
 .hl-side-1 ul {
@@ -307,19 +308,19 @@ main{
 }
 
 .hl-side-2 li {
-    color: var(--txtGray);
-    font-size: 15px;
-    padding-right: 8px;
+  color: var(--txtGray);
+  font-size: 15px;
+  padding-right: 8px;
 }
 
 .hl-side-2 a {
-    color: var(--txtGray);
-    font-size: 15px;
+  color: var(--txtGray);
+  font-size: 15px;
 }
 
 .hl-side-2 i {
-    color: var(--txtGray);
-    font-size: 15px;
+  color: var(--txtGray);
+  font-size: 15px;
 }
 
 .hl-side-2 ul {
@@ -579,7 +580,7 @@ header {
   width: 69.5%;
   height: 550px;
   margin-right: 0.5%;
-  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),url(img/header-img-1.jpg);
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(img/header-img-1.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -598,7 +599,7 @@ header {
 }
 
 .hl-side-2 {
-	height: 49.5%;
+  height: 49.5%;
 }
 
 #hl-title-txt {
@@ -685,7 +686,6 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
 
 .hl-main-top-logo{
@@ -732,10 +732,4 @@ main {
 .funding-title h2 {
   display: inline;
 }
-
-
-
-
-
-
 }
