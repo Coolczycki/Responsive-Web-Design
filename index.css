@@ -722,12 +722,12 @@ main {
   height: 50px;
 }
 
-.funding-title-list {
-  display: inline;
-  float: right;
-}
+  .funding-title-list {
+    display: inline;
+    float: right;
+  }
 
-.funding-title h2 {
+  .funding-title h2 {
     display: inline;
   }
 }
