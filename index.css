@@ -699,16 +699,13 @@ main {
 
 .hl-main-top-date {
   margin: 20px 20px;
+  font-size: 18px;
+  color: white;
 }
 
 #hl-title-txt {
   font-size: 58px;
   line-height: 58px;
-}
-
-.hl-main-top-date {
-  font-size: 18px;
-  color: white;
 }
 
 /* Latest funding section for desktop */
