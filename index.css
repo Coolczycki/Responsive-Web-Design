@@ -15,6 +15,7 @@
   --yellow: #fd3;
   --gray: #898888;
   --orange: #f42;
+  --pink: rgba(255,68,34,.08);
   --txtGray: hsla(0,0%,100%,.6);
 }
 
@@ -28,6 +29,14 @@
 
 #white-txt {
   color: #fff;
+}
+
+#orange-txt {
+  color: var(--orange);
+}
+
+#orange-txt:hover {
+  color: black;
 }
 
 .rajdhani {
@@ -318,6 +327,83 @@ main{
   color: white;
 }
 
+/* Latest funding rounds section here */
+.funding-title {
+  width: 98%;
+  height: 125px;
+  margin: 0 auto;
+
+  border: 1px solid blue;
+}
+
+.ftl-display {
+  display: none;
+}
+
+.funding-title li {
+  margin-top: 10px;
+}
+
+
+.funding-main {
+  width: 98%;
+  height: 800px;
+  margin: 0 auto;
+
+  border: 1px solid red;
+
+}
+
+.funding-main-cont {
+  width: 100%;
+  height: 250px;
+
+  border: 1px solid green;
+}
+
+.funding-main-top {
+  width: 100%;
+  height: 40%;
+
+	border: 1px solid purple;
+}
+
+.funding-main-mid {
+  width: 100%;
+  height: 30%;
+  padding: 16px;
+
+	border: 1px solid brown;
+}
+
+.funding-main-bot {
+  width: 100%;
+  height: 30%;
+  padding: 10px 16px 16px 16px;
+  border-top: 1px solid rgba(255,68,34,.25);
+
+	border: 1px solid yellow;
+}
+
+.fmt-top {
+  width: 100%;
+  height: 40%;
+  background-color: var(--orange);
+}
+
+.fmt-bot {
+  width: 100%;
+  height: 60%;
+  background-color: var(--pink);
+}
+
+.funding-img {
+  width: 70px;
+  height: 70px;
+  padding-top: 10px;
+  padding-left: 10px;
+  position: absolute;
+}
 @media screen and (min-width: 768px) {
 
 /*nav bar styles for tablet and desktop */
@@ -395,8 +481,9 @@ header {
   width: 100%;
   height: 50px;
   font-size: 0.8rem;
-  margin-top: 12px;
-  margin-bottom: 10px;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  background-color: white;
 }
 
 .header-middle-left{
@@ -494,9 +581,42 @@ header {
   line-height: 40px;
 }
 
+/* latest funding section */
+.funding-title {
+  width: 98%;
+  height: 80px;
+  margin: 0 auto;
+  margin-top: 50px;
+
+  border: 1px solid blue;
+}
+
+.ftl-display {
+  display: initial;	
+}
+
+.funding-title-list {
+  margin-top: 10px;
+}
+
+.funding-title-list li {
+  display: inline;
+}
+
 }
 
 @media screen and (min-width: 1024px) {
+
+/* nav bar styles for desktop */
+
+.header-middle {
+  background-color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 12px;
+  padding-bottom: 10px;
+}
+
 /* highlights styles for desktop */
 .highlights-main {
   width: 69.5%;
@@ -550,6 +670,20 @@ header {
 .hl-main-top-date {
   font-size: 18px;
   color: white;
+}
+
+/* Latest funding section for desktop */
+.funding-title {
+  height: 50px;
+}
+
+.funding-title-list {
+  display: inline;
+  float: right;
+}
+
+.funding-title h2 {
+  display: inline;
 }
 
 
