@@ -117,6 +117,8 @@ footer{
    width:100%;
    background-color: var(--lightGray);
    height:120px;
+   padding:20px;
+   margin: 5px;
  }
 
  .social-media .fa {
