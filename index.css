@@ -31,11 +31,15 @@
   color: #fff;
 }
 
-#orange-txt {
+.white-txt {
+  color: #fff;
+}
+
+.orange-txt {
   color: var(--orange);
 }
 
-#orange-txt:hover {
+.orange-txt:hover {
   color: black;
 }
 
@@ -327,7 +331,12 @@ main{
   color: white;
 }
 
-#hl-title-txt-side {
+#hl-title-txt-side1 {
+  font-size: 22px;
+  color: white;
+}
+
+#hl-title-txt-side2 {
   font-size: 22px;
   color: white;
 }
