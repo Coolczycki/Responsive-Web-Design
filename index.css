@@ -126,7 +126,7 @@ header {
   margin-top: 20px;
 }
 
-/*Highlights section*/
+/* Highlights section */
 main {
   width: 100%;
 }
@@ -138,7 +138,7 @@ main {
   margin-top: 100px;
 }
 
-/*Main highlights container*/
+/* Main highlights container */
 .highlights-main {
   width: 100%;
   height: 190px;
@@ -182,7 +182,7 @@ main {
   margin-top: 5px;
 }
 
-/*Side highlights containers*/
+/* Side highlights containers */
 .hl-side-1 {
   width: 100%;
   height: 190px;
@@ -271,7 +271,7 @@ main {
   color: white;
 }
 
-/*Latest funding rounds section here*/
+/* Latest funding rounds section here */
 .funding-title {
   width: 98%;
   height: 125px;
@@ -323,7 +323,7 @@ main {
   width: 100%;
   height: 40%;
   padding-left: 85px;
-  padding-top: 8px;	
+  padding-top: 8px;
   background-color: var(--orange);
 }
 
@@ -335,7 +335,7 @@ main {
   width: 100%;
   height: 60%;
   padding-left: 85px;
-  padding-top: 10px;	  
+  padding-top: 10px;
   background-color: var(--pink);
 }
 
@@ -357,7 +357,7 @@ main {
   display: none;
 }
 
-/*footer section*/
+/* footer section */
 .footer {
   display: flex;
   flex-direction: column;
@@ -384,7 +384,7 @@ main {
   color: aliceblue;
   background-color: rgb(65, 61, 61);
   border-radius: 15px;
-  box-shadow: 0px 0px 2px rgb(99, 91, 91);
+  box-shadow: 0.1px 0.1px 2px rgb(99, 91, 91);
 }
 
 .social-media li:hover {
@@ -413,7 +413,7 @@ main {
 
 .footer-message img {
   height: 12px;
-  width: 40px; 
+  width: 40px;
 }
 
 .ft-text {
@@ -422,8 +422,7 @@ main {
 }
 
 @media screen and (min-width: 768px) {
-
-/*nav bar styles for tablet and desktop*/
+/* nav bar styles for tablet and desktop */
   header {
     width: 100%;
     position: fixed;
@@ -661,17 +660,14 @@ main {
     justify-content: space-between;
   }
 
-/* GRADIENT HERE
-
-.highlights-main :after {
-	content: '';
+  /* GRADIENT HERE
+  .highlights-main :after {
+    content: '';
 	width: 939px;
 	height: 550px;
 	background-image: url(img/gradient.webp);
 	opacity: 0.5;
-}
-
-*/
+  } */
 
   .hl-main-top{
     display: flex;
