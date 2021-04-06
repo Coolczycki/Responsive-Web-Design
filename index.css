@@ -601,7 +601,6 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
   }
 
   .funding-main-cont {
@@ -609,7 +608,7 @@ main {
   }
 
   .ftl-display {
-    display: initial;	
+    display: initial;
   }
 
   .funding-title-list {
@@ -619,15 +618,13 @@ main {
   .funding-title-list li {
     display: inline;
   }
-
-
 }
 
 @media screen and (min-width: 1024px) {
   main {
     width: 1150px;
     margin: 0 auto;
-  }	
+  }
 
   /* nav bar styles for desktop */
 
@@ -665,7 +662,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  } 
+  }
 
   .hl-main-top-logo {
     height: 112px;
@@ -697,11 +694,11 @@ main {
   }
 
   .funding-title {
-  height: 50px;
+    height: 50px;
   }
 
   .funding-title-list {
-  	display: inline;
+    display: inline;
     float: right;
   }
 
