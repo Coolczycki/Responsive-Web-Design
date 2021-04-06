@@ -49,7 +49,7 @@
 <h3><b>Contributing</b></h3>
 <hr>
 Contributions, issues, and feature requests are welcome!<br>
-Feel free to check the<a href=""> issues</a> page.
+Feel free to check the<a href="https://github.com/Loosescrew022/Responsive-Web-Design/issues"> issues</a> page.
 <hr>
 <h3><b>Show your support</b></h3>
 Give a ⭐️ if you like this project!<hr>
