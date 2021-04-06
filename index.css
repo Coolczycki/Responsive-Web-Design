@@ -312,6 +312,7 @@ main{
 
 @media screen and (min-width: 768px) {
 
+/*nav bar styles for tablet and desktop */
 header {
   width: 100%;
   position: fixed;
@@ -444,11 +445,70 @@ header {
   text-align: initial;
 }
 
+/* highlights tablet and desktop styles */
+.highlights {
+  width: 99%;
+  height: 550px;
+  margin: 0 auto;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: row;
+}
 
+.highlights-main {
+  width: 69.5%;
+  height: 550px;
+  margin-right: 0.5%;
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),url(img/header-img-1.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.highlights-side {
+  width: 30%;
+  height: 550px;
+}
+
+.hl-side-1 {
+  height: 49.5%;
+  margin-bottom: 1%;
+}
+
+.hl-side-2 {
+	height: 49.5%;
+}
 
 }
 
 @media screen and (min-width: 1024px) {
+/* highlights styles for desktop */
+.highlights-main {
+  justify-content: space-between;
+}
+
+.hl-main-top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.hl-main-top-logo{
+  height: 112px;
+  width: 446px;
+  margin: 20px 20px;
+  background: url(img/logo-transparent.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.hl-main-top-date {
+  margin: 20px 20px;
+}
+
 
 
 
