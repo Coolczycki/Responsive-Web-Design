@@ -406,8 +406,33 @@ header {
 .news-cont-latest {
   height: 20%;
   width: 100%;
+  display: flex;
+  flex-direction:row;
+  background:var(--grey);
 
   border: 1px solid orange;
+}
+
+.news-cont-title{
+  display: inline;
+  float: left;
+  
+
+}
+.ncl-title{
+  display:inline;
+  float:left;
+  width:auto;
+  padding: 4%;
+}
+.ncl-title-h5 a{
+  color:var(--orange);
+}
+.ncl-img{
+  display:inline;
+  float: right;
+  height:auto;
+  width: 135px;
 }
 
 .news-cont-list {
@@ -416,6 +441,7 @@ header {
 
   border: 3px solid brown;
 }
+
 
 
 
