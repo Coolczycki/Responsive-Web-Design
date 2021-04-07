@@ -624,7 +624,7 @@ main {
 
   .footer-message {
     flex-direction: row;
-}
+  }
 }
 
 @media screen and (min-width: 1024px) {
