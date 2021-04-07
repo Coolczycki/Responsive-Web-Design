@@ -54,6 +54,20 @@
   font-size: 0.85rem;
 }
 
+.snc-auth {
+  color: #aaa;
+  font-size: 0.85rem;
+}
+
+.snc-auth:hover {
+  color: black;
+}
+
+.snc-title:hover {
+  color: var(--orange);
+  text-decoration: underline;
+}
+
 .gray-txt-list {
   color: #555;
   font-size: 0.75rem;
@@ -298,6 +312,50 @@ header {
   font-size: 22px;
   color: white;
 }
+
+/* small news section */
+
+.small-news {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.small-news-cont {
+  width: 100%;
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 12px;
+}
+
+.snc-img-a {
+  height: 100%;
+  width: 10%;
+}
+
+.snc-img {
+  height: 100%;
+  width: 100%;
+}
+
+.snc-text {
+  font-size: 0.9rem;
+}
+
+.snc-text h4 {
+  padding-left: 10px;
+}
+
+.snc-list {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+ #small-news-last {
+   display: none;
+  }
+
 
 /* Latest funding rounds section here */
 
@@ -706,6 +764,32 @@ header {
     line-height: 40px;
   }
 
+  /* small news section */
+
+  .small-news {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: space-between;
+  }
+
+  .small-news-cont {
+    display: initial;
+    width: 32%;
+    height: 221px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 35px;
+  }
+
+  .snc-img-a {
+    height: 100%;
+    width: 100%;
+  }
+
   /* latest funding section */
   .funding-title {
     width: 98%;
@@ -734,6 +818,18 @@ header {
 
   .funding-title-list li {
     display: inline;
+  }
+
+  #small-news-last {
+    display: initial;
+    content:'';
+    width: 31%;
+    height: 221px;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   /* Article section */
@@ -835,6 +931,102 @@ header {
   #hl-title-txt {
     font-size: 58px;
     line-height: 58px;
+  }
+
+  /* small news section for desktop */
+
+ /* ------------------------------------------------------------------- */
+  .small-news {
+    width: 100%;
+    height: 470px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: [col1]270px [col2]270px [col3]270px [col4]270px;
+    grid-template-rows: [row1]227px [row2]227px;
+    column-gap: 22px;
+    row-gap: 15px;
+  }
+    
+  .newscont1 {
+    grid-column-start: col1;
+    grid-column-end: col2;
+    grid-row-start: row1;
+    grid-row-end: row2;
+    width: 270px;
+    height: 227px;
+  }
+
+  .newscont2 {
+    grid-column-start: col2;
+    grid-column-end: col3;
+    grid-row-start: row1;
+    grid-row-end: row2;
+    width: 270px;
+    height: 227px;
+  }
+
+  .newscont3 {
+    grid-column-start: col3;
+    grid-column-end: col4;
+    grid-row-start: row1;
+    grid-row-end: row2;
+    width: 270px;
+    height: 227px;
+  }
+
+  .newscont4 {
+    grid-column-start: col4;
+    grid-column-end: col5;
+    grid-row-start: row1;
+    grid-row-end: row2;
+    width: 270px;
+    height: 227px;
+  }
+
+  .newscont5 {
+    grid-column-start: col1;
+    grid-column-end: col2;
+    grid-row-start: row2;
+    grid-row-end: row3;
+    width: 270px;
+    height: 227px;
+  }
+
+  .newscont6 {
+    grid-column-start: col2;
+    grid-column-end: col3;
+    grid-row-start: row2;
+    grid-row-end: row3;
+    width: 270px;
+    height: 227px;
+  }
+
+  .newscont7 {
+    grid-column-start: col3;
+    grid-column-end: col4;
+    grid-row-start: row2;
+    grid-row-end: row3;
+    width: 270px;
+    height: 227px;
+  }
+
+  .newscont8 {
+    grid-column-start: col4;
+    grid-column-end: col5;
+    grid-row-start: row2;
+    grid-row-end: row3;
+    width: 270px;
+    height: 227px;
+  }
+ /* ------------------------------------------------------------------- */
+
+  .small-news-cont {
+    display: flex;
+    flex-direction: column;
+  }
+
+   #small-news-last {
+    display: none;
   }
 
   /* Latest funding section for desktop */
