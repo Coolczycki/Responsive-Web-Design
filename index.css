@@ -77,14 +77,12 @@
   font-family: 'Work sans', sans-serif;
 }
 
-
 /* Styles for mobile preview (default) */
 
 main {
   width: 90%;
   margin: 0 auto;
 }
-
 
 /* Header styles for mobile */
 
@@ -106,7 +104,6 @@ header {
 .header-middle-left {
   display: none;
 }
-
 
 /* Middle section of navbar here */
 
@@ -144,7 +141,6 @@ header {
   border: 1px solid #eee;
 }
 
-
 /* Yellow stripe section here */
 
 .header-bottom {
@@ -159,7 +155,6 @@ header {
   margin-top: 20px;
 }
 
-
 /* Highlights section */
 
 .highlights {
@@ -168,7 +163,6 @@ header {
   margin: 0 auto;
   margin-top: 100px;
 }
-
 
 /* Main highlights container */
 
@@ -214,7 +208,6 @@ header {
 .hl-main-bottom ul {
   margin-top: 5px;
 }
-
 
 /* Side highlights containers */
 
@@ -306,7 +299,6 @@ header {
   color: white;
 }
 
-
 /* Latest funding rounds section here */
 
 .funding-title {
@@ -393,7 +385,6 @@ header {
   display: none;
 }
 
-
 /* News section */
 
 #news-cont-last {
@@ -471,7 +462,6 @@ header {
   width: 100%;
 }
 
-
 /*  latest news containter - list section */
 
 .news-cont-list ul {
@@ -483,7 +473,6 @@ header {
 .news-cont-list li {
   padding-top: 5px;
 }
-
 
 /* footer section */
 
