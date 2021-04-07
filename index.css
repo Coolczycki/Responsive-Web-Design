@@ -379,19 +379,24 @@ header {
 
 /* News section */
 
+#news-cont-last {
+  display: none;
+}
+
+.news-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 .news-cont {
   height: 636px;
   width: 100%;
-
-
-  border: 1px solid red;
 }
 
 .news-cont h2 {
   height: 5%;
   width: 100%;
-
-  border: 1px solid green;
 }
 
 .news-cont-title{
@@ -408,17 +413,12 @@ header {
   flex-direction: column;
   justify-content: flex-end;
   padding: 12px;
-
-
-  border: 1px solid blue;
 }
 
 .news-cont-latest {
   height: 20%;
   width: 100%;
   background:var(--pink);
-
-  border: 1px solid orange;
 }
 
 .news-cont-title{
@@ -456,9 +456,6 @@ header {
 .news-cont-list {
   height: 40%;
   width: 100%;
-  
-
-  border: 3px solid brown;
 }
 
 /*  latest news containter - list section */
@@ -469,7 +466,7 @@ header {
 }
 
 .news-cont-list li {
-  padding-top: 12px;
+  padding-top: 5px;
 }
 
 
@@ -739,6 +736,30 @@ header {
     display: inline;
   }
 
+  /* Article section */
+
+  .news-main {
+    display: initial;
+    margin: 0 auto;
+  }
+
+  .news-cont {
+  	display: inline-block;
+    height: 636px;
+    width: 49%;
+    margin-left: 5px;
+  }
+
+  #news-cont-last {
+  	display: initial;
+  	content:'';
+  	height: 636px;
+    width: 430px;
+    padding: 5px;
+    padding-top: 15px;
+    margin: 0 auto;
+  }
+
   /* Footer section for desktop and tablet view */
 
   .footer-message {
@@ -746,7 +767,7 @@ header {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   main {
     width: 1150px;
     margin: 0 auto;
@@ -840,4 +861,33 @@ header {
   .funding-title h2 {
     display: inline;
   }
+
+  /* Article section here */
+  #news-cont-last {
+  display: none;
+  }
+
+  .news-main {
+  	width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .news-cont {
+    height: 636px;
+    width: 32%;
+  }
+
+  #news-cont-last {
+  	display: none;
+  	content:'';
+  	height: 636px;
+    width: 430px;
+    padding: 5px;
+    padding-top: 15px;
+    margin: 0 auto;
+  }
+
 }
