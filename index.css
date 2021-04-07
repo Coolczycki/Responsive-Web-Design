@@ -639,7 +639,7 @@ main {
 
   /* highlights styles for desktop */
   .highlights {
-  	height: 450px;
+    height: 450px;
   }
 
   .highlights-side {
@@ -647,20 +647,19 @@ main {
     height: 450px;
   }
 
-  .hl-side-1{
-  	height: 49.5%;
+  .hl-side-1 {
+    height: 49.5%;
   }
 
-  .hl-side-2{
-  	height: 49.5%;
+  .hl-side-2 {
+    height: 49.5%;
   }
-
 
   .highlights-main {
     width: 69.5%;
     height: 450px;
     margin-right: 0.5%;
-    background: linear-gradient(150deg, rgba(255, 34, 0, 0.7) 0%, rgba(0,0,0,1) 100%), url(img/header-img-1.jpg);
+    background: linear-gradient(150deg, rgba(255, 34, 0, 0.7) 0%, rgba(0, 0, 0, 1) 100%), url(img/header-img-1.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
