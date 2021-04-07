@@ -619,6 +619,12 @@ main {
   .funding-title-list li {
     display: inline;
   }
+
+  /* Footer section for desktop and tablet view */
+
+  .footer-message {
+    flex-direction: row;
+}
 }
 
 @media screen and (min-width: 1024px) {
