@@ -57,7 +57,10 @@
 }
 
 /* Styles for mobile preview (default) */
-
+main {
+  width: 98%;
+  margin: 0 auto;
+}
 /* Header styles for mobile */
 
 header {
@@ -128,9 +131,6 @@ header {
 }
 
 /* Highlights section */
-main {
-  width: 100%;
-}
 
 .highlights {
   width: 98%;
@@ -288,8 +288,7 @@ main {
 }
 
 .funding-main {
-  width: 98%;
-  margin: 0 auto;
+  width: 100%;
 }
 
 .funding-main-cont {
@@ -357,6 +356,54 @@ main {
 #fmc-last {
   display: none;
 }
+
+/* News section */
+
+.news-cont {
+  height: 636px;
+  width: 100%;
+
+
+  border: 1px solid red;
+}
+
+.news-cont h2 {
+  height: 5%;
+  width: 100%;
+
+  border: 1px solid green;
+}
+
+.news-cont-title{
+  color: var(--orange);
+}
+
+.news-cont-img {
+  height: 35%;
+  width: 100%;
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(img/gamestop.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 1px solid blue;
+}
+
+.news-cont-latest {
+  height: 20%;
+  width: 100%;
+
+  border: 1px solid orange;
+}
+
+.news-cont-list {
+  height: 40%;
+  width: 100%;
+
+  border: 3px solid brown;
+}
+
+
+
+
 
 /* footer section */
 .footer {
