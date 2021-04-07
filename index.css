@@ -416,7 +416,7 @@ header {
 .news-cont-latest {
   height: 20%;
   width: 100%;
-  background:var(--grey);
+  background:var(--pink);
 
   border: 1px solid orange;
 }
@@ -431,24 +431,26 @@ header {
   display: inline;
   float: left;
   width:60%;
-  padding: 4%;
+  padding: 12px;
 }
 
 .ncl-title-h5 a{
+  font-size: 99%;
   color:var(--orange);
 }
 
 .ncl-title-h4 a{
-  font-size: 12px;
+  font-size: 10px;
   color:var(--orange);
   opacity: 0.5;
+  padding-bottom:20px;
 }
 
 .ncl-img{
   display:inline;
   float: right;
   height:100%;
-  width: 30%;
+  width: 33%;
 }
 
 .news-cont-list {
