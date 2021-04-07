@@ -53,6 +53,16 @@
   font-size: 0.85rem;
 }
 
+.gray-txt-list {
+  color: #555;
+  font-size: 0.75rem;
+  word-spacing: 0.01rem;
+}
+
+.gray-txt-list:hover {
+  color: black;
+}
+
 .gray-txt-news {
   font-size: 0.85rem;
   color: #d3d3d3
@@ -447,6 +457,17 @@ header {
   
 
   border: 3px solid brown;
+}
+
+/*  latest news containter - list section */
+.news-cont-list ul { 
+   list-style-type: circle;
+   list-style-position: inside;
+   padding-left: 12px;
+}
+
+.news-cont-list li {
+  padding-top: 12px;
 }
 
 
