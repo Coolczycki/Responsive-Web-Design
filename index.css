@@ -35,6 +35,11 @@
   color: #fff;
 }
 
+.white-txt-h4 {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
 .orange-txt {
   color: var(--orange);
 }
@@ -48,6 +53,11 @@
   font-size: 0.85rem;
 }
 
+.gray-txt-news {
+  font-size: 0.85rem;
+  color: #d3d3d3
+}
+
 .rajdhani {
   font-family: 'Rajdhani', sans-serif;
 }
@@ -58,7 +68,7 @@
 
 /* Styles for mobile preview (default) */
 main {
-  width: 98%;
+  width: 90%;
   margin: 0 auto;
 }
 /* Header styles for mobile */
@@ -384,6 +394,12 @@ header {
   background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(img/gamestop.jpg);
   background-position: center;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 12px;
+
+
   border: 1px solid blue;
 }
 
