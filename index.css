@@ -569,12 +569,6 @@ header {
   float: right;
 }
 
-.hot-deals {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
 .hot-deals-cont {
   width: 100%;
   height: 72px;
@@ -609,7 +603,7 @@ header {
 .hdc-oldprice {
   font-size: 0.85rem;
   color: #555;
-  text-decoration: line-through; 
+  text-decoration: line-through;
 }
 
 .hdc-price {
@@ -1078,7 +1072,6 @@ header {
     height: 470px;
     margin: 0 auto;
     margin-bottom: 10%;
-
     display: grid;
     grid-template-columns: [col1]270px [col2]270px [col3]270px [col4]270px;
     grid-template-rows: [row1]227px [row2]227px;
