@@ -332,6 +332,7 @@ header {
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin-bottom: 50px;
 }
 
 .small-news-cont {
@@ -464,13 +465,14 @@ header {
 }
 
 .news-cont {
-  height: 636px;
+  height: 450px;
   width: 100%;
 }
 
 .news-cont h2 {
   height: 5%;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .news-cont-title {
@@ -492,7 +494,7 @@ header {
 }
 
 .news-cont-latest {
-  height: 20%;
+  height: 15%;
   width: 100%;
   background: var(--pink);
 }
@@ -500,12 +502,12 @@ header {
 .ncl-title {
   display: inline;
   float: left;
-  width: 60%;
+  width: 73%;
   padding: 12px;
 }
 
 .ncl-title-h5 a {
-  font-size: 99%;
+  font-size: 0.9rem;
   color: var(--orange);
 }
 
@@ -520,7 +522,7 @@ header {
   display: inline;
   float: right;
   height: 100%;
-  width: 33%;
+  width: 25%;
 }
 
 .news-cont-list {
@@ -548,6 +550,7 @@ header {
 
 .hot-deals {
   width: 100%;
+  margin-bottom: 50px;
   display: flex;
   flex-direction: column;
 }
@@ -925,11 +928,12 @@ header {
   .news-main {
     display: initial;
     margin: 0 auto;
+    margin-top: 150px;
   }
 
   .news-cont {
     display: inline-block;
-    height: 636px;
+    height: 450px;
     width: 49%;
     margin-left: 5px;
   }
@@ -948,6 +952,7 @@ header {
 
   .hot-deals {
     width: 100%;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -1072,6 +1077,7 @@ header {
     width: 100%;
     height: 470px;
     margin: 0 auto;
+    margin-bottom: 10%;
 
     display: grid;
     grid-template-columns: [col1]270px [col2]270px [col3]270px [col4]270px;
@@ -1193,11 +1199,13 @@ header {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 75px;
   }
 
   .news-cont {
-    height: 636px;
+    height: 500px;
     width: 32%;
+    margin-bottom: 75px;
   }
 
   #news-cont-last {
@@ -1213,5 +1221,90 @@ header {
   /* hot deals section for desktop */
   #hot-deals-last {
     display: none;
+  }
+
+  /* hot deals GRID */
+  .hot-deals {
+    width: 100%;
+    height: 570px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: [col1]270px [col2]270px [col3]270px [col4]270px;
+    grid-template-rows: [row1]275px [row2]275px;
+    column-gap: 22px;
+    row-gap: 15px;
+  }
+
+  .hotgrid1 {
+    grid-column-start: col1;
+    grid-column-end: col2;
+    grid-row-start: row1;
+    grid-row-end: row2;
+    width: 270px;
+    height: 275px;
+  }
+
+  .hotgrid2 {
+    grid-column-start: col2;
+    grid-column-end: col3;
+    grid-row-start: row1;
+    grid-row-end: row2;
+    width: 270px;
+    height: 275px;
+  }
+
+  .hotgrid3 {
+    grid-column-start: col3;
+    grid-column-end: col4;
+    grid-row-start: row1;
+    grid-row-end: row2;
+    width: 270px;
+    height: 275px;
+  }
+
+  .hotgrid4 {
+    grid-column-start: col4;
+    grid-column-end: col5;
+    grid-row-start: row1;
+    grid-row-end: row2;
+    width: 270px;
+    height: 275px;
+  }
+
+  .hotgrid5 {
+    grid-column-start: col1;
+    grid-column-end: col2;
+    grid-row-start: row2;
+    grid-row-end: row3;
+    width: 270px;
+    height: 275px;
+  }
+
+  .hotgrid6 {
+    grid-column-start: col2;
+    grid-column-end: col3;
+    grid-row-start: row2;
+    grid-row-end: row3;
+    width: 270px;
+    height: 275px;
+  }
+
+  .hotgrid7 {
+    grid-column-start: col3;
+    grid-column-end: col4;
+    grid-row-start: row2;
+    grid-row-end: row3;
+    width: 270px;
+    height: 275px;
+  }
+
+  .hotgrid8 {
+    grid-column-start: col4;
+    grid-column-end: col5;
+    grid-row-start: row2;
+    grid-row-end: row3;
+    width: 270px;
+    height: 275px;
   }
 }
