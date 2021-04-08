@@ -1090,9 +1090,9 @@ header {
   }
 
   .hdc-text {
-  font-size: 0.8rem;
-  width: 100%;
-}
+    font-size: 0.8rem;
+    width: 100%;
+  }
 
   /* Footer section for desktop and tablet view */
   .footer-message {
