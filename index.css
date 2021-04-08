@@ -345,7 +345,7 @@ header {
 
 .snc-img-a {
   height: 100%;
-  width: 10%;
+  width: 25%;
 }
 
 .snc-img {
@@ -354,7 +354,7 @@ header {
 }
 
 .snc-text {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 .snc-text h4 {
@@ -991,11 +991,11 @@ header {
   }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   main {
     width: 1150px;
     margin: 0 auto;
-    margin-top: 20rem;
+    margin-top: 5rem;
   }
 
   /* nav bar styles for desktop */
