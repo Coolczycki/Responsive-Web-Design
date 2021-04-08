@@ -68,6 +68,11 @@
   text-decoration: underline;
 }
 
+.hdc-title:hover {
+  color: var(--orange);
+  text-decoration: underline;
+}
+
 .gray-txt-list {
   color: #555;
   font-size: 0.75rem;
@@ -360,11 +365,6 @@ header {
   padding-left: 10px;
 }
 
-#small-news-last {
-  display: none;
-}
-
-
 /* Latest funding rounds section here */
 
 .funding-title {
@@ -528,6 +528,10 @@ header {
   width: 100%;
 }
 
+#small-news-last {
+  display: none;
+}
+
 /*  latest news containter - list section */
 
 .news-cont-list ul {
@@ -538,6 +542,80 @@ header {
 
 .news-cont-list li {
   padding-top: 5px;
+}
+
+/* HOT DEALS SECTION */
+
+.hot-deals {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.hot-deals-title {
+  width: 100%;
+}
+
+.hot-deals-title h2 {
+  display: inline;
+  float: left;
+}
+
+.hot-deals-title h4 {
+  display: inline;
+  float: right;
+}
+
+.hot-deals {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.hot-deals-cont {
+  width: 100%;
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 12px;
+}
+
+.hdc-img-a {
+  height: 100%;
+  width: 10%;
+}
+
+.hdc-img {
+  height: 100%;
+  width: 100%;
+}
+
+.hdc-text {
+  font-size: 0.9rem;
+}
+
+.hdc-text h4 {
+  padding-left: 10px;
+}
+
+.hdc-list {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+.hdc-oldprice {
+  font-size: 0.85rem;
+  color: #555;
+  text-decoration: line-through; 
+}
+
+.hdc-price {
+  font-size: 1rem;
+  color: #555;
+}
+
+#hot-deals-last {
+  display: none;
 }
 
 /* footer section */
@@ -866,6 +944,48 @@ header {
     margin: 0 auto;
   }
 
+  /* hot deals styles for tablet */
+
+  .hot-deals {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: space-between;
+  }
+
+  .hot-deals-cont {
+    display: initial flex;
+    width: 32%;
+    height: 221px;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 35px;
+  }
+
+  .hdc-img-a {
+    height: 100%;
+    width: 100%;
+  }
+
+  .hdc-img {
+    height: 100%;
+    width: 100%;
+  }
+
+   #hot-deals-last {
+    display: initial;
+    content: '';
+    width: 31%;
+    height: 221px;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
   /* Footer section for desktop and tablet view */
   .footer-message {
     flex-direction: row;
@@ -952,6 +1072,7 @@ header {
     width: 100%;
     height: 470px;
     margin: 0 auto;
+
     display: grid;
     grid-template-columns: [col1]270px [col2]270px [col3]270px [col4]270px;
     grid-template-rows: [row1]227px [row2]227px;
@@ -1087,5 +1208,10 @@ header {
     padding: 5px;
     padding-top: 15px;
     margin: 0 auto;
+  }
+
+  /* hot deals section for desktop */
+  #hot-deals-last {
+    display: none;
   }
 }
