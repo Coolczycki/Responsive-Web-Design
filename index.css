@@ -973,7 +973,7 @@ header {
     width: 100%;
   }
 
-   #hot-deals-last {
+  #hot-deals-last {
     display: initial;
     content: '';
     width: 31%;
