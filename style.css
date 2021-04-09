@@ -293,11 +293,11 @@ header {
   margin: 0 auto;
   margin-bottom: 30px;
 }
-.ftl-display {
-  display: none;
-}
 .funding-title li {
   margin-top: 10px;
+}
+.ftl-display {
+  display: none;
 }
 .funding-main {
   width: 100%;
