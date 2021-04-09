@@ -1220,7 +1220,7 @@ header {
     grid-row-start: row2;
     grid-row-end: row3;
   }
-  
+
   .small-news-cont {
     display: flex;
     flex-direction: column;
