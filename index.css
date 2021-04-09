@@ -501,11 +501,12 @@ header {
   padding: 12px;
 }
 
-.news-cont-img{
+.news-cont-img {
   background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(img/gamestop.jpg);
   background-position: center;
   background-size: cover;
 }
+
 .news-cont-img2 {
   background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(img/news-img-2.png);
   background-position: center;
@@ -528,7 +529,6 @@ header {
   background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(img/news-img-2.png);
   background-position: center;
   background-size: cover;
-
 }
 
 .news-cont-img6 {
@@ -554,7 +554,6 @@ header {
   background-position: center;
   background-size: cover;
 }
-
 
 .news-cont-latest {
   height: 15%;
@@ -1142,8 +1141,6 @@ header {
   }
 
   /* small news section for desktop */
-
-  /* ------------------------------------------------------------------- */
   .small-news {
     width: 100%;
     height: 470px;
@@ -1163,7 +1160,7 @@ header {
   .newscont5,
   .newscont6,
   .newscont7,
-  .newscont8{
+  .newscont8 {
     width: 270px;
     height: 227px;
   }
@@ -1223,9 +1220,7 @@ header {
     grid-row-start: row2;
     grid-row-end: row3;
   }
-
-  /* ------------------------------------------------------------------- */
-
+  
   .small-news-cont {
     display: flex;
     flex-direction: column;
