@@ -32,7 +32,7 @@
  👤 Author<br>
    
 <ul>
-  <li>GitHub: <a href="https://github.com/Loosescrew022">Piotr Kulczycki</a></li>
+  <lihttps://coolczycki.github.io/Responsive-Web-Design">Piotr Kulczycki</a></li>
 </ul  
   
  <hr>
