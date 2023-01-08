@@ -17,7 +17,7 @@
 <br>
 <h3><b>Live Demo</b></h3>
 <hr>
-<a href="https://loosescrew022.github.io/Responsive-Web-Design/">Live Demo Link</a><br>
+<a href="https://coolczycki.github.io/Responsive-Web-Design/">Live Demo Link</a><br>
 <h3><b>Getting Started</b></h3>
 <hr>
 <p>To get a local copy up and running follow these simple example steps</p>
